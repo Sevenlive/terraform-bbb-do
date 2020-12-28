@@ -7,6 +7,12 @@ This Repository should give you a starting point to run two BBB Instance in the 
   - Digitalocean Token
   - Cloudflare Token
   - Cloudflare Domain ZoneID
+  - Terraform
+  - Ansible
+
+
+## Other Cloud Plattforms
+You could adapt this script to other plattforms like AWS or Azure but you do need change the providers and might not get the fullauto experience.
 
 
 ## Contributing
