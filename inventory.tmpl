@@ -1,0 +1,5 @@
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+[servers]
+%{ for index, dns in public-dns ~}
+${dns} ansible_host=${public-ip[index]} ansible_ssh_private_key_file=digital_ocean_key # ${private-id[index]}
+%{ endfor ~}

@@ -1,0 +1,7 @@
+terraform.tfvars
+digital_ocean_key
+digital_ocean_key.pub
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/*
+.terraform.*

@@ -1,0 +1,8 @@
+---
+- name: Install BBB
+  hosts: servers
+  remote_user: root
+
+  roles:
+    - { role: n0emis.bigbluebutton, bbb_hostname: "{{inventory_hostname}}", bbb_coturn_secret: esvfdfgdgffdfcsddcccdc322,bbb_turn_secret: ee8d093109a9b273, bbb_greenlight_secret: 107308d54ff4a5f, bbb_greenlight_db_password: 2585c27c785e8895ec, bbb_letsencrypt_email: lukaslange13@gmail.com }
+
